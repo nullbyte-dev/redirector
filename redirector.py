@@ -4,9 +4,6 @@ EmailRedirector download unseen email from "From" mailbox.
 Emails can be processed and then uploaded to "To" mailbox.
 If attachment type is not 'image' -> upload to OwnCloud server and return link.
 
-KNOWN ISSUES:
-    1. Wrong encoding for mailbox folders (possibly utf-7), which not supported by imaplib
-
 """
 
 import os
